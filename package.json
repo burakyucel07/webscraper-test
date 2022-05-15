@@ -1,0 +1,24 @@
+{
+  "name": "webscraper-test",
+  "version": "0.0.1",
+  "description": "Web scraper test.",
+  "main": "index.js",
+  "scripts": {
+	"start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "keywords": [
+    "web",
+    "scrapper"
+  ],
+  "author": "Burak Yücel",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
